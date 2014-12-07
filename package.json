@@ -4,6 +4,7 @@
   "author": "Joakim Ekberg",
   "description": "Compact React element syntax when using CoffeeScript",
   "license": "MIT",
+  "repository": "https://github.com/kalasjocke/react-coffee-elements.git",
   "dependencies": {
     "react": "^0.12.0"
   },
