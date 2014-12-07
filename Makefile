@@ -10,3 +10,6 @@ build: clean
 
 test: build
 	mocha
+
+publish: clean build test
+	npm publish
