@@ -22,10 +22,17 @@ describe 'Elements', ->
 	it 'should render a child element', ->
 		React.renderToStaticMarkup(div(div("foo"))).should.equal "<div><div>foo</div></div>"
 
-	it 'should handle list of child elements', ->
+	it 'should render list of child elements', ->
 		React.renderToStaticMarkup(
 			div([
 				div({key: 'foo'}, "foo"),
 				div({key: 'bar'}, "foo"),
 			])
+		).should.equal "<div><div>foo</div><div>foo</div></div>"
+
+		React.renderToStaticMarkup(
+			div(
+				div "foo"
+				div "foo"
+			)
 		).should.equal "<div><div>foo</div><div>foo</div></div>"
