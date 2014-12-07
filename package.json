@@ -1,0 +1,15 @@
+{
+  "name": "react-coffee-elements",
+  "version": "0.0.1",
+  "author": "Joakim Ekberg",
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.12.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
+  }
+}
