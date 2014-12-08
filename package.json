@@ -6,6 +6,9 @@
   "license": "MIT",
   "repository": "https://github.com/kalasjocke/react-coffee-elements.git",
   "main": "lib/elements.js",
+  "scripts": {
+    "test": "make test"
+  },
   "dependencies": {
     "react": "^0.12.0"
   },
