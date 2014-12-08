@@ -1,5 +1,7 @@
-React Coffee Elements
+React Coffee Elements [![Build Status](https://travis-ci.org/kalasjocke/react-coffee-elements.svg?branch=master)](https://travis-ci.org/kalasjocke/react-coffee-elements)
 =====================
+
+
 
 Simplifies writing React DOM elements when using CoffeeScript. Instead of writing:
 
