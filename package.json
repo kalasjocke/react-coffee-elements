@@ -9,10 +9,11 @@
   "scripts": {
     "test": "make test"
   },
-  "dependencies": {
-    "react": "^0.12.0"
+  "peerDependencies": {
+    "react": ">= 0.10.0 < 1.x"
   },
   "devDependencies": {
+    "react": "0.12.2",
     "coffee-script": "^1.8.0",
     "mocha": "^2.0.1",
     "should": "^4.3.0"
