@@ -13,7 +13,7 @@ React = require 'react'
 
 div {},
   h1 {}, "My great page"
-  p {}, "My awesome content"
+  p {className: 'my-class'}, "My awesome content"
 ```
 
 One now can skip the empty option objects and just write:
@@ -26,6 +26,6 @@ Elements = require 'react-coffee-elements'
 
 div(
   h1 "My great page"
-  p "My awesome content"
+  p {className: 'my-class'}, "My awesome content"
 )
 ```
