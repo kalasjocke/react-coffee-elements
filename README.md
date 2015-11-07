@@ -19,13 +19,12 @@ div {},
 One now can skip the empty option objects and just write:
 
 ```coffeescript
-Elements = require 'react-coffee-elements'
 
-{div, h1, p} = Elements
+{div, h1, p} = require 'react-coffee-elements'
 
 
 div(
   h1 'My great page'
-  p {className: 'my-class'}, 'My awesome content'
+  p className: 'my-class', 'My awesome content'
 )
 ```
