@@ -1,6 +1,6 @@
 PATH := ./node_modules/.bin:${PATH}
 
-.PHONY : clean build test publish
+.PHONY : clean build test publish install
 
 clean:
 	rm -rf lib
@@ -13,3 +13,6 @@ test: build
 
 publish: clean build test
 	npm publish
+
+install:
+	npm install
