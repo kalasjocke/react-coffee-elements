@@ -1,6 +1,6 @@
 {
   "name": "react-coffee-elements",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Joakim Ekberg",
   "description": "Compact React element syntax when using CoffeeScript",
   "license": "MIT",
