@@ -10,7 +10,7 @@
     "test": "make test"
   },
   "peerDependencies": {
-    "react": ">= 0.10.0 < 1.x"
+    "react": ">= 0.10.0 < 16.x"
   },
   "devDependencies": {
     "react": "0.12.2",
